@@ -11,6 +11,9 @@ body {
     height: 25vw;
     max-height: 150px;
     position: relative;
+
+    cursor: pointer;
+
 }
 
 #slider img {
@@ -22,6 +25,10 @@ body {
     object-fit: cover;
 
     transition: 3s;
+
+    border-radius: 10px;
+
+    border: #ddd solid 2px;
 }
 
 #slider img.selected {
